@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zanin/proprietary/bin/atrace:system/bin/atrace \
     vendor/samsung/zanin/proprietary/bin/atx:system/bin/atx \
     vendor/samsung/zanin/proprietary/bin/atxd:system/bin/atxd \
-    vendor/samsung/zanin/proprietary/bin/BCM4330B1_002.001.003.0967.1089.hcd:system/bin/BCM4330B1_002.001.003.0967.1089.hcd \
+    vendor/samsung/zanin/proprietary/bin/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
     vendor/samsung/zanin/proprietary/bin/bkmgrd:system/bin/bkmgrd \
     vendor/samsung/zanin/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/zanin/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
