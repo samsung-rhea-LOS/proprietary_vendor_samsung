@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zanin/proprietary/bin/atrace:system/bin/atrace \
     vendor/samsung/zanin/proprietary/bin/atx:system/bin/atx \
     vendor/samsung/zanin/proprietary/bin/atxd:system/bin/atxd \
-    vendor/samsung/zanin/proprietary/bin/BCM4330B1_002.001.003.0967.1089.hcd:system/bin/BCM4330B1_002.001.003.0967.1089.hcd \
+    vendor/samsung/zanin/proprietary/bin/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
     vendor/samsung/zanin/proprietary/bin/bkmgrd:system/bin/bkmgrd \
    vendor/samsung/zanin/proprietary/bin/bluetoothd:system/bin/bluetoothd \
     vendor/samsung/zanin/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
@@ -39,8 +39,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zanin/proprietary/etc/sensors.dat:system/etc/sensors.dat \
     vendor/samsung/zanin/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/zanin/proprietary/etc/Volume.db:system/etc/Volume.db \
-    vendor/samsung/zanin/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/zanin/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/proprietary/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
+    vendor/samsung/proprietary/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/zanin/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/zanin/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/zanin/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
