@@ -19,9 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zanin/proprietary/bin/atrace:system/bin/atrace \
     vendor/samsung/zanin/proprietary/bin/atx:system/bin/atx \
     vendor/samsung/zanin/proprietary/bin/atxd:system/bin/atxd \
-    vendor/samsung/zanin/proprietary/bin/BCM4330B1_002.001.003.0967.1089.hcd:system/bin/BCM4330B1_002.001.003.0967.1089.hcd \
+    vendor/samsung/zanin/proprietary/bin/BCM4334B0_002.001.013.0602.0616.hcd:system/bin/BCM4334B0_002.001.013.0602.0616.hcd \
     vendor/samsung/zanin/proprietary/bin/bkmgrd:system/bin/bkmgrd \
-   vendor/samsung/zanin/proprietary/bin/bluetoothd:system/bin/bluetoothd \
+    vendor/samsung/zanin/proprietary/bin/bluetoothd:system/bin/bluetoothd \
+    vendor/samsung/zanin/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/samsung/zanin/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
     vendor/samsung/zanin/proprietary/bin/glgps:system/bin/glgps \
     vendor/samsung/zanin/proprietary/bin/gps.cer:system/bin/gps.cer \
@@ -39,10 +40,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zanin/proprietary/etc/sensors.dat:system/etc/sensors.dat \
     vendor/samsung/zanin/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/zanin/proprietary/etc/Volume.db:system/etc/Volume.db \
-    vendor/samsung/zanin/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/zanin/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/zanin/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
+    vendor/samsung/zanin/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
     vendor/samsung/zanin/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/zanin/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/zanin/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/zanin/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/zanin/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/zanin/proprietary/lib/hw/gps.rhea.so:system/lib/hw/gps.rhea.so \
     vendor/samsung/zanin/proprietary/lib/hw/sensors.rhea.so:system/lib/hw/sensors.rhea.so \
@@ -175,5 +178,9 @@ PRODUCT_COPY_FILES += \
    vendor/samsung/zanin/proprietary/lib/libtiming.so:system/lib/libtiming.so \
    vendor/samsung/zanin/proprietary/lib/libv3d.so:system/lib/libv3d.so \
    vendor/samsung/zanin/proprietary/lib/libv4a_fx_ics.so:system/lib/libv4a_fx_ics.so \
-   vendor/samsung/zanin/proprietary/lib/libvwengine.so:system/lib/libvwengine.so \
-    vendor/samsung/zanin/proprietary/lib/libbralloc.so:system/lib/libbralloc.so
+    vendor/samsung/zanin/proprietary/lib/libvwengine.so:system/lib/libvwengine.so \
+    vendor/samsung/zanin/proprietary/lib/libbralloc.so:system/lib/libbralloc.so \
+    vendor/samsung/zanin/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
+    vendor/samsung/zanin/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+    vendor/samsung/zanin/proprietary/lib/libbtio.so:system/lib/libbtio.so \
+    vendor/samsung/zanin/proprietary/lib/libdbus.so:system/lib/libdbus.so
