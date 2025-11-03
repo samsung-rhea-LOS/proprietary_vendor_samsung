@@ -183,4 +183,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/zanin/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
     vendor/samsung/zanin/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
     vendor/samsung/zanin/proprietary/lib/libbtio.so:system/lib/libbtio.so \
-    vendor/samsung/zanin/proprietary/lib/libdbus.so:system/lib/libdbus.so
+    vendor/samsung/zanin/proprietary/lib/libdbus.so:system/lib/libdbus.so \
+    vendor/samsung/zanin/proprietary/lib/libjni_jpegutil.so:system/lib/libjni_jpegutil.so \
+    vendor/samsung/zanin/proprietary/lib/libjni_tinyplanet.so:system/lib/libjni_tinyplanet.so \
+    vendor/samsung/zanin/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
